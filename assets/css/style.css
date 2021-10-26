@@ -25,7 +25,21 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
+.slider-for img {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+}
 
+.slider-nav img {
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+}
+.slick-slide {
+  outline: none;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -962,6 +976,10 @@ section {
   }
   .breadcrumbs ol li {
     display: inline-block;
+  }
+
+  .slider-for img {
+    width: 100%;
   }
 }
 
